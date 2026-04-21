@@ -1,0 +1,24 @@
+# A-Maze-ing configuration file
+# All keys are case-insensitive.
+# Coordinates are in x,y format (column, row), zero-indexed.
+
+# Maze dimensions (WIDTH: 3-300, HEIGHT: 3-280)
+
+WIDTH=20
+HEIGHT=15
+
+# Entry and exit coordinates (x,y) — must be inside the maze and different
+ENTRY=0,0
+EXIT=19,14
+
+# Output file (must end in .txt, cannot be config.txt)
+OUTPUT_FILE=maze.txt
+
+# Perfect maze: exactly one path between entry and exit (True/False)
+PERFECT=True
+
+# Optional: seed for reproducibility (comment out or leave empty for random)
+#SEED=42
+
+# Optional: generation algorithm — dfs or prim (leave empty for default dfs)
+#ALGO=dfs
